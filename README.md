@@ -1,22 +1,30 @@
-# 🌸 Iris KNN Classification
+# Iris-KNN-Classification
 
-This is my Task 6 project for the AI & ML Internship.  
-It uses the K-Nearest Neighbors (KNN) algorithm to classify iris flowers into different species based on their measurements.  
-I’ve kept the code simple, clean, and well-commented so it’s easy to understand.
+This project uses the **K-Nearest Neighbors (KNN)** algorithm to classify iris flowers based on petal and sepal measurements.
 
-## 📌 Overview
+## What's Included
 
-- **Dataset**: Iris.csv (stored in `data/` folder)
-- **Algorithm**: KNN (K-Nearest Neighbors)
-- **Goal**: Predict the type of iris flower (`Iris-setosa`, `Iris-versicolor`, `Iris-virginica`) using petal and sepal measurements.
-- **Extras**:
-  - Automatically finds the best K value
-  - Evaluates accuracy, confusion matrix, and classification report
-  - Generates accuracy vs K plot
-  - Visualizes decision boundaries
+- `Iris.csv` – Dataset  
+- `knn_model.py` – KNN implementation  
+- `plots/` – Accuracy and decision boundary visualizations  
 
-## 🚀 How To Run
+## Tools & Libraries
 
- Install dependencies:
-   ```bash
-   pip install pandas numpy matplotlib scikit-learn
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- scikit-learn  
+
+## Key Steps
+
+- Applied KNN classification  
+- Selected optimal K value  
+- Evaluated model using accuracy, confusion matrix, and classification report  
+- Visualized accuracy vs K and decision boundaries  
+
+## How to Run
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+python knn_model.py
