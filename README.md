@@ -1,4 +1,4 @@
-# Iris-KNN-Classification
+# Iris KNN Classification
 
 This project uses the **K-Nearest Neighbors (KNN)** algorithm to classify iris flowers based on petal and sepal measurements.
 
